@@ -1,0 +1,690 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		128DD2D473D9A276F637EC0E /* Pods_Rolodex.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A9692F38DD31EDD4E890C6C /* Pods_Rolodex.framework */; };
+		A51C9AB92252859D004C15C0 /* MyContactsDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = A51C9AB82252859D004C15C0 /* MyContactsDB.swift */; };
+		A51F65CE22493F86003BB1B4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A51F65CD22493F86003BB1B4 /* AppDelegate.swift */; };
+		A51F65D022493F86003BB1B4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A51F65CF22493F86003BB1B4 /* ViewController.swift */; };
+		A51F65D322493F86003BB1B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A51F65D122493F86003BB1B4 /* Main.storyboard */; };
+		A51F65D522493F86003BB1B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A51F65D422493F86003BB1B4 /* Assets.xcassets */; };
+		A51F65D822493F86003BB1B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A51F65D622493F86003BB1B4 /* LaunchScreen.storyboard */; };
+		A51F65E322493F86003BB1B4 /* RolodexTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A51F65E222493F86003BB1B4 /* RolodexTests.swift */; };
+		A51F65EE22493F86003BB1B4 /* RolodexUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A51F65ED22493F86003BB1B4 /* RolodexUITests.swift */; };
+		A5D58BFC2249450900629342 /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D58BFB2249450900629342 /* Contact.swift */; };
+		C2CD9AA0706860C7CD49E50C /* Pods_RolodexUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E70E5A5B86426D93AA5725B /* Pods_RolodexUITests.framework */; };
+		D3603A75F003B90E2D8F7EF7 /* Pods_RolodexTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 001523E84F6A02887A4493B5 /* Pods_RolodexTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A51F65DF22493F86003BB1B4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A51F65C222493F86003BB1B4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A51F65C922493F86003BB1B4;
+			remoteInfo = Rolodex;
+		};
+		A51F65EA22493F86003BB1B4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A51F65C222493F86003BB1B4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A51F65C922493F86003BB1B4;
+			remoteInfo = Rolodex;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		001523E84F6A02887A4493B5 /* Pods_RolodexTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RolodexTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		25D97A658281ADFC4B84F9ED /* Pods-RolodexTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RolodexTests.debug.xcconfig"; path = "Target Support Files/Pods-RolodexTests/Pods-RolodexTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2A9692F38DD31EDD4E890C6C /* Pods_Rolodex.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Rolodex.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		44C3B7A2177078B02BFA7B38 /* Pods-Rolodex.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rolodex.debug.xcconfig"; path = "Target Support Files/Pods-Rolodex/Pods-Rolodex.debug.xcconfig"; sourceTree = "<group>"; };
+		5ED8C351864191D8E4E35E90 /* Pods-RolodexTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RolodexTests.release.xcconfig"; path = "Target Support Files/Pods-RolodexTests/Pods-RolodexTests.release.xcconfig"; sourceTree = "<group>"; };
+		6E70E5A5B86426D93AA5725B /* Pods_RolodexUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RolodexUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DBF716BF20328D650BE012C /* Pods-RolodexUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RolodexUITests.release.xcconfig"; path = "Target Support Files/Pods-RolodexUITests/Pods-RolodexUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A51C9AB82252859D004C15C0 /* MyContactsDB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyContactsDB.swift; sourceTree = "<group>"; };
+		A51F65CA22493F86003BB1B4 /* Rolodex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rolodex.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A51F65CD22493F86003BB1B4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A51F65CF22493F86003BB1B4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A51F65D222493F86003BB1B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A51F65D422493F86003BB1B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A51F65D722493F86003BB1B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A51F65D922493F86003BB1B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A51F65DE22493F86003BB1B4 /* RolodexTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RolodexTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A51F65E222493F86003BB1B4 /* RolodexTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RolodexTests.swift; sourceTree = "<group>"; };
+		A51F65E422493F86003BB1B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A51F65E922493F86003BB1B4 /* RolodexUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RolodexUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A51F65ED22493F86003BB1B4 /* RolodexUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RolodexUITests.swift; sourceTree = "<group>"; };
+		A51F65EF22493F86003BB1B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5D58BFB2249450900629342 /* Contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
+		CAC6F54B6651229E89771EA7 /* Pods-RolodexUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RolodexUITests.debug.xcconfig"; path = "Target Support Files/Pods-RolodexUITests/Pods-RolodexUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E806BC7479F84795AF29DE08 /* Pods-Rolodex.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rolodex.release.xcconfig"; path = "Target Support Files/Pods-Rolodex/Pods-Rolodex.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A51F65C722493F86003BB1B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				128DD2D473D9A276F637EC0E /* Pods_Rolodex.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A51F65DB22493F86003BB1B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3603A75F003B90E2D8F7EF7 /* Pods_RolodexTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A51F65E622493F86003BB1B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2CD9AA0706860C7CD49E50C /* Pods_RolodexUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		547619DAF3086FCA6A74795E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2A9692F38DD31EDD4E890C6C /* Pods_Rolodex.framework */,
+				001523E84F6A02887A4493B5 /* Pods_RolodexTests.framework */,
+				6E70E5A5B86426D93AA5725B /* Pods_RolodexUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A51F65C122493F86003BB1B4 = {
+			isa = PBXGroup;
+			children = (
+				A51F65CC22493F86003BB1B4 /* Rolodex */,
+				A51F65E122493F86003BB1B4 /* RolodexTests */,
+				A51F65EC22493F86003BB1B4 /* RolodexUITests */,
+				A51F65CB22493F86003BB1B4 /* Products */,
+				FC255E1B1A781AC796149F1E /* Pods */,
+				547619DAF3086FCA6A74795E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A51F65CB22493F86003BB1B4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A51F65CA22493F86003BB1B4 /* Rolodex.app */,
+				A51F65DE22493F86003BB1B4 /* RolodexTests.xctest */,
+				A51F65E922493F86003BB1B4 /* RolodexUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A51F65CC22493F86003BB1B4 /* Rolodex */ = {
+			isa = PBXGroup;
+			children = (
+				A51F65CD22493F86003BB1B4 /* AppDelegate.swift */,
+				A51F65CF22493F86003BB1B4 /* ViewController.swift */,
+				A51C9AB82252859D004C15C0 /* MyContactsDB.swift */,
+				A5D58BFB2249450900629342 /* Contact.swift */,
+				A51F65D122493F86003BB1B4 /* Main.storyboard */,
+				A51F65D422493F86003BB1B4 /* Assets.xcassets */,
+				A51F65D622493F86003BB1B4 /* LaunchScreen.storyboard */,
+				A51F65D922493F86003BB1B4 /* Info.plist */,
+			);
+			path = Rolodex;
+			sourceTree = "<group>";
+		};
+		A51F65E122493F86003BB1B4 /* RolodexTests */ = {
+			isa = PBXGroup;
+			children = (
+				A51F65E222493F86003BB1B4 /* RolodexTests.swift */,
+				A51F65E422493F86003BB1B4 /* Info.plist */,
+			);
+			path = RolodexTests;
+			sourceTree = "<group>";
+		};
+		A51F65EC22493F86003BB1B4 /* RolodexUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A51F65ED22493F86003BB1B4 /* RolodexUITests.swift */,
+				A51F65EF22493F86003BB1B4 /* Info.plist */,
+			);
+			path = RolodexUITests;
+			sourceTree = "<group>";
+		};
+		FC255E1B1A781AC796149F1E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				44C3B7A2177078B02BFA7B38 /* Pods-Rolodex.debug.xcconfig */,
+				E806BC7479F84795AF29DE08 /* Pods-Rolodex.release.xcconfig */,
+				25D97A658281ADFC4B84F9ED /* Pods-RolodexTests.debug.xcconfig */,
+				5ED8C351864191D8E4E35E90 /* Pods-RolodexTests.release.xcconfig */,
+				CAC6F54B6651229E89771EA7 /* Pods-RolodexUITests.debug.xcconfig */,
+				8DBF716BF20328D650BE012C /* Pods-RolodexUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A51F65C922493F86003BB1B4 /* Rolodex */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A51F65F222493F86003BB1B4 /* Build configuration list for PBXNativeTarget "Rolodex" */;
+			buildPhases = (
+				0EDD559CF488C3FD16083CC8 /* [CP] Check Pods Manifest.lock */,
+				A51F65C622493F86003BB1B4 /* Sources */,
+				A51F65C722493F86003BB1B4 /* Frameworks */,
+				A51F65C822493F86003BB1B4 /* Resources */,
+				2013A1BA034AFB2AC0225792 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Rolodex;
+			productName = Rolodex;
+			productReference = A51F65CA22493F86003BB1B4 /* Rolodex.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A51F65DD22493F86003BB1B4 /* RolodexTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A51F65F522493F86003BB1B4 /* Build configuration list for PBXNativeTarget "RolodexTests" */;
+			buildPhases = (
+				01639BDCD1B9DBFA25F594D7 /* [CP] Check Pods Manifest.lock */,
+				A51F65DA22493F86003BB1B4 /* Sources */,
+				A51F65DB22493F86003BB1B4 /* Frameworks */,
+				A51F65DC22493F86003BB1B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A51F65E022493F86003BB1B4 /* PBXTargetDependency */,
+			);
+			name = RolodexTests;
+			productName = RolodexTests;
+			productReference = A51F65DE22493F86003BB1B4 /* RolodexTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A51F65E822493F86003BB1B4 /* RolodexUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A51F65F822493F86003BB1B4 /* Build configuration list for PBXNativeTarget "RolodexUITests" */;
+			buildPhases = (
+				058A53DD8014791F678947CB /* [CP] Check Pods Manifest.lock */,
+				A51F65E522493F86003BB1B4 /* Sources */,
+				A51F65E622493F86003BB1B4 /* Frameworks */,
+				A51F65E722493F86003BB1B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A51F65EB22493F86003BB1B4 /* PBXTargetDependency */,
+			);
+			name = RolodexUITests;
+			productName = RolodexUITests;
+			productReference = A51F65E922493F86003BB1B4 /* RolodexUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A51F65C222493F86003BB1B4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Vincent Fazio";
+				TargetAttributes = {
+					A51F65C922493F86003BB1B4 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					A51F65DD22493F86003BB1B4 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A51F65C922493F86003BB1B4;
+					};
+					A51F65E822493F86003BB1B4 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A51F65C922493F86003BB1B4;
+					};
+				};
+			};
+			buildConfigurationList = A51F65C522493F86003BB1B4 /* Build configuration list for PBXProject "Rolodex" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A51F65C122493F86003BB1B4;
+			productRefGroup = A51F65CB22493F86003BB1B4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A51F65C922493F86003BB1B4 /* Rolodex */,
+				A51F65DD22493F86003BB1B4 /* RolodexTests */,
+				A51F65E822493F86003BB1B4 /* RolodexUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A51F65C822493F86003BB1B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A51F65D822493F86003BB1B4 /* LaunchScreen.storyboard in Resources */,
+				A51F65D522493F86003BB1B4 /* Assets.xcassets in Resources */,
+				A51F65D322493F86003BB1B4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A51F65DC22493F86003BB1B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A51F65E722493F86003BB1B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		01639BDCD1B9DBFA25F594D7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RolodexTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		058A53DD8014791F678947CB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RolodexUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0EDD559CF488C3FD16083CC8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Rolodex-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2013A1BA034AFB2AC0225792 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Rolodex/Pods-Rolodex-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SQLite.swift/SQLite.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SQLite.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Rolodex/Pods-Rolodex-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A51F65C622493F86003BB1B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A51C9AB92252859D004C15C0 /* MyContactsDB.swift in Sources */,
+				A5D58BFC2249450900629342 /* Contact.swift in Sources */,
+				A51F65D022493F86003BB1B4 /* ViewController.swift in Sources */,
+				A51F65CE22493F86003BB1B4 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A51F65DA22493F86003BB1B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A51F65E322493F86003BB1B4 /* RolodexTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A51F65E522493F86003BB1B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A51F65EE22493F86003BB1B4 /* RolodexUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A51F65E022493F86003BB1B4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A51F65C922493F86003BB1B4 /* Rolodex */;
+			targetProxy = A51F65DF22493F86003BB1B4 /* PBXContainerItemProxy */;
+		};
+		A51F65EB22493F86003BB1B4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A51F65C922493F86003BB1B4 /* Rolodex */;
+			targetProxy = A51F65EA22493F86003BB1B4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A51F65D122493F86003BB1B4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A51F65D222493F86003BB1B4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A51F65D622493F86003BB1B4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A51F65D722493F86003BB1B4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A51F65F022493F86003BB1B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A51F65F122493F86003BB1B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A51F65F322493F86003BB1B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 44C3B7A2177078B02BFA7B38 /* Pods-Rolodex.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Rolodex/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HPU.Rolodex.Rolodex;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A51F65F422493F86003BB1B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E806BC7479F84795AF29DE08 /* Pods-Rolodex.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Rolodex/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HPU.Rolodex.Rolodex;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A51F65F622493F86003BB1B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25D97A658281ADFC4B84F9ED /* Pods-RolodexTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RolodexTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HPU.Rolodex.RolodexTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rolodex.app/Rolodex";
+			};
+			name = Debug;
+		};
+		A51F65F722493F86003BB1B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5ED8C351864191D8E4E35E90 /* Pods-RolodexTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RolodexTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HPU.Rolodex.RolodexTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rolodex.app/Rolodex";
+			};
+			name = Release;
+		};
+		A51F65F922493F86003BB1B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CAC6F54B6651229E89771EA7 /* Pods-RolodexUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RolodexUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HPU.Rolodex.RolodexUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Rolodex;
+			};
+			name = Debug;
+		};
+		A51F65FA22493F86003BB1B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8DBF716BF20328D650BE012C /* Pods-RolodexUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RolodexUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HPU.Rolodex.RolodexUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Rolodex;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A51F65C522493F86003BB1B4 /* Build configuration list for PBXProject "Rolodex" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A51F65F022493F86003BB1B4 /* Debug */,
+				A51F65F122493F86003BB1B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A51F65F222493F86003BB1B4 /* Build configuration list for PBXNativeTarget "Rolodex" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A51F65F322493F86003BB1B4 /* Debug */,
+				A51F65F422493F86003BB1B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A51F65F522493F86003BB1B4 /* Build configuration list for PBXNativeTarget "RolodexTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A51F65F622493F86003BB1B4 /* Debug */,
+				A51F65F722493F86003BB1B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A51F65F822493F86003BB1B4 /* Build configuration list for PBXNativeTarget "RolodexUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A51F65F922493F86003BB1B4 /* Debug */,
+				A51F65FA22493F86003BB1B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A51F65C222493F86003BB1B4 /* Project object */;
+}
