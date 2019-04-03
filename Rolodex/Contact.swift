@@ -7,7 +7,7 @@
 //
 
 import Foundation
-
+//;
 class Contact {
     let id: Int64?
     var name: String
